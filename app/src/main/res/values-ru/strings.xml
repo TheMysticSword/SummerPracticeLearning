@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Генератор имени волбешника</string>
+    <string name="input_name">Имя</string>
+    <string name="input_height">Рост</string>
+    <string name="input_weight">Вес</string>
+    <string name="input_age">Возраст</string>
+    <string name="button_main">Вычислить</string>
+    <string name="output_invalid_input_error">Данные введены некорректно</string>
+    <string name="output_result">Ответ: $value</string>
+</resources>

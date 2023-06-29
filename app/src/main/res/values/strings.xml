@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Wizard Name Generator</string>
+    <string name="input_name">Name</string>
+    <string name="input_height">Height</string>
+    <string name="input_weight">Weight</string>
+    <string name="input_age">Age</string>
+    <string name="button_main">Calculate</string>
+    <string name="output_invalid_input_error">Input values invalid</string>
+    <string name="output_result">Result: $value</string>
+</resources>
