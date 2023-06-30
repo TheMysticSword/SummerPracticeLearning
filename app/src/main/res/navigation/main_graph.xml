@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.summerpracticelearning.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_secretFragment"
+            app:destination="@id/secretFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/notepadFragment"
+        android:name="com.example.summerpracticelearning.NotepadFragment"
+        android:label="fragment_notepad"
+        tools:layout="@layout/fragment_notepad" >
+        <action
+            android:id="@+id/action_notepadFragment_to_secretFragment"
+            app:destination="@id/secretFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.summerpracticelearning.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_secretFragment"
+            app:destination="@id/secretFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/changelogFragment"
+        android:name="com.example.summerpracticelearning.ChangelogFragment"
+        android:label="fragment_changelog"
+        tools:layout="@layout/fragment_changelog" >
+        <action
+            android:id="@+id/action_changelogFragment_to_secretFragment"
+            app:destination="@id/secretFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quitFragment"
+        android:name="com.example.summerpracticelearning.QuitFragment"
+        android:label="fragment_quit"
+        tools:layout="@layout/fragment_quit" >
+        <action
+            android:id="@+id/action_quitFragment_to_secretFragment"
+            app:destination="@id/secretFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secretFragment"
+        android:name="com.example.summerpracticelearning.SecretFragment"
+        android:label="fragment_secret"
+        tools:layout="@layout/fragment_secret" />
+</navigation>
